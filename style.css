@@ -26,20 +26,6 @@ form {
   text-align: right;
 }
 
-@media screen and (min-width: 800px) {
-  form {
-    text-align: center;
-    width: 30vw;
-  }
-
-  div {
-    text-align: center;
-  }
-
-  button {
-    width: 20vw;
-  }
-}
 input {
   padding: 1rem;
   margin-top: 1rem;
@@ -75,4 +61,19 @@ button {
 
 a {
   color: var(--main-color);
+}
+
+@media screen and (min-width: 800px) {
+  form {
+    text-align: center;
+    width: 30vw;
+  }
+
+  div {
+    text-align: center;
+  }
+
+  button {
+    width: 20vw;
+  }
 }
