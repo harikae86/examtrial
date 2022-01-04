@@ -71,6 +71,7 @@ a {
 
   div {
     text-align: center;
+    display: block;
   }
 
   button {
